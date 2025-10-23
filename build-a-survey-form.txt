@@ -1,0 +1,78 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to being involved in improving this community</p>
+    <form id="survey-form">
+      <label id="name-label"for="name">Name:</label>
+      <input required id="name" type="text" placeholder="Enter your name"><br>
+      <label id="email-label"for="email">Email:</label>
+      <input required type="email" id="email" placeholder="Enter your Email"><br>
+      <label id="number-label" for="number">Age(optional):</label>
+      <input required id="number" type="number" placeholder="Age:" min="3" max="100">
+
+      <p>What is your ethnicity?</p>
+      <select id="dropdown">
+        <option>White</option>
+        <option>African or African American</option>
+        <option>Asian</option>
+        <option>Hispanic or Latino</option>
+        <option>Native American or Alaska Native</option>
+        <option>Native Hawaiian or Other Pacific Islander</option>
+        <option>Prefer not to say</option>
+      </select>
+
+      <p>Would you recommend going to Umass Amherst?</p>
+      <input type="radio" id="yes-option" name="yes-no" value="Yes">
+      <label for="yes-option">Yes</label>
+      <input type="radio" id="no-option" name="yes-no" value="No">
+      <label for="no-option">No</label>
+
+      <p>What are your favorite parts of UMass Amherst?</p>
+      <label>
+      <input type="checkbox" name="favorite" value="dining-halls">Dining Halls
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="campus-life">Campus Life
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="professors">Professors
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="research">Research
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="athletics">Athletics
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="dorms">Dorms
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="clubs">Clubs
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="location">Location
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="community">Community
+      </label>
+      <label>
+      <input type="checkbox" name="favorite" value="academics">Academics
+      </label>
+      <p>Any other comments on UMass Amherst?</p>
+      <textarea id="comments" placeholder="Enter your comments here:">
+        </textarea><br>
+      <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
