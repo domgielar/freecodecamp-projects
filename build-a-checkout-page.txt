@@ -1,0 +1,44 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Rubik Cude in your cart">
+        <p>Dynamic Rubik Cude</p>
+        <p>$8.99</p>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name">Cardholder Name <span aria-hidden="true">*</span>
+            <input id="card-name" name="card-name" type="text" required>
+            </label>
+            <br>
+            <label for="card-number">Card Number <span aria-hidden="true">*</span>
+            <input id="card-number" name="card-number" type="text" required aria-describedby="card-number-help">
+            <p id="card-number-help"> Please enter your 16-digit card number without spaces or dashes.</p> 
+            </label>
+            <label>Expiration date:
+            <input type="date" id="expire-date" name="expire-date">
+            </label>
+            <br>
+            <label for="expire-date">CVV <span aria-hidden="true">*</span>
+            <input type="text" id="expire-date" name="expire-date"required>
+            </label>
+        </form>
+    </section>
+</body>
+
+</html>
+
+** end of index.html **
+
