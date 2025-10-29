@@ -1,0 +1,35 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+    <main>
+        <h1>Fight Club</h1>
+        <img src="https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="300" alt="Fight Club advertisment picture">
+        <p><em>Fight Club</em> (1999) is about a man tired of his boring life who starts an underground fight club with a mysterious new friend, Tyler Durden. The club grows out of control, leading him to realize Tyler is actually part of his own split personality. It’s a story about identity, rebellion, and the dangers of losing control.</p>
+        <p><strong>Movie Rating: </strong><span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</span> (10/10)</p>
+        <h2>
+            Cast Members
+        </h2>
+        <ul>
+            <li><strong>Brad Pitt</strong> as Tyler Durden</li>
+            <li><strong>Edward Norton</strong> as The Narrator</li>
+            <li><strong>Helena Bonham Carter</strong> as Marla Singer</li>
+            <li><strong>Jared Leto</strong> as Angel Face</li>
+            <li><strong>Meat Loaf</strong> as Robert “Bob” Paulson</li>
+            <li><strong>Zach Grenier</strong> as Richard Chesler</li>
+        </ul>
+
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
